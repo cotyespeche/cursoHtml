@@ -1,0 +1,32 @@
+h1 {
+    color:blueviolet;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+
+p {
+    color:rgb(228, 83, 30);
+    font-size: 16pt;
+}
+.encabezado {
+    font-size: 24pt;
+}
+
+p#primera-noticia {
+    color:chartreuse
+}
+
+#segunda-noticia {
+    color:rgb(37, 20, 220)
+}
+
+*.warning {
+    color:red;
+}
+/* el * es un selector universal que le esta indicando en este caso que a todos los elementos que tengan clase warning sean rojos */
+
+.autor, .fecha, .ubicacion, h1 {
+    text-decoration: underline;
+}
+/* para poner un mismo estilo a varios elementos */
+

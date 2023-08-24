@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Resultados</title>
+</head>
+<body>
+    <h3>Resultados</h3>
+    <div id="resultados"></div> <!--creamos un div donde se van a mostar los resultados obtenidos a partir de lalogica de js del scrip que esta abajo-->
+    <br>
+    <a href="/Forms-Tables/formularios.html"> Volver al formulario</a>
+</body>
+<script>
+    const resDiv= document.getElementById("resultados")
+    new URLSearchParams(window.location.search).forEach((val, name) => {
+        resDiv.append(`${name}: ${val}`)
+        resDiv.append(document.createElement('br'))
+    })
+</script>
+</html>

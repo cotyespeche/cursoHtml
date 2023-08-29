@@ -1,0 +1,50 @@
+div {
+    border: 1px solid grey ;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* STATIC: no se puede mover su posicion */
+.static {
+    border: 1px solid grey ;
+    padding: 5px;
+}
+
+
+/* RELATIVE : se pocisiona en relacion al posicionamiento original */
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/* FIXED: se utiliza para fijar algo sea arriba abajo o a los costados. Se posiciona en relacion a la pantalla */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    background-color: greenyellow;
+    z-index: 10;
+}
+
+/* ABSOLUTE: se posiciona fijandose segun le indiquemos, en relacion a su elemento padre */
+.absolute {
+    position: absolute;
+    background-color: rgb(208, 77, 12);
+   right: 0px;
+   bottom: 0px;
+}
+.relative.contenedor {
+    width: 300px;
+    height: 700px;
+    background-color: rgb(4, 111, 111);
+}
+
+/* STICKY. es una combinacion del relativo y el fixed (se mueve pero cuando se escrollea queda fijado) */
+.sticky {
+    position: sticky;
+    background-color: aquamarine;
+    color: rgb(196, 40, 199);
+    top: 0px;
+    z-index: 2;
+}

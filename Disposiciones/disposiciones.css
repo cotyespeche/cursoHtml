@@ -1,0 +1,21 @@
+.div-1, .div-2 {
+    background-color: rgb(233, 15, 146);
+}
+/* Los DIV por defecto tienen un display: in block */
+
+.span1, .span2{
+    background-color: aqua;
+    float: left;
+}
+
+.span2{
+    background-color: aqua;
+    float: right;
+}
+/* Los SPAn por defecto tienen un display: inline */
+/* Con el float les decimos alos elementos inlie que se pongan a la izquierda, derecha o donde querramos */
+
+.img {
+    height: 50px;
+}
+/*  Las IMAGENES por defecto tienen un display: inline-block */

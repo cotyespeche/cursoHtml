@@ -30,3 +30,33 @@ p#primera-noticia {
 }
 /* para poner un mismo estilo a varios elementos */
 
+.background {
+    background-color: darkseagreen;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+    background-position: right bottom;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150,150,150);
+    border-width: 3px;
+    padding: 10px 20px;
+    /* padding: 10px 30px 50px 70px; */
+    margin: 10px 20px;
+    /* margin: 10px 30px 50px 70px; */
+
+}
+
+.color-hexadecimal {
+    color: #FF57BB;
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200);
+    /* te permite seleccionar los valores de cada color  */
+}
+
+.color-rgba {
+    color: rgba(10, 10,10, 0.8);
+}
+/* te permite cambiar la opacidad y transparencia del testo  */

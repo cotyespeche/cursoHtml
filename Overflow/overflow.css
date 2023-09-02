@@ -1,0 +1,45 @@
+
+/* El contenedoor Hidden hace que lo que no entra detro de los paramentros de margenes etc que se aplican que se oculten, no se ven. */
+.contenedor-hidden {
+    background-color: chartreuse;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    
+}
+
+/* Te permite scrollear. Pone barras vertical(y)  y horizontal(x) */
+.contenedor-scroll {
+    margin: 20px 0px;
+    background-color: chartreuse;
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+}
+.contenedor-visible {
+    margin: 20px 0px;
+    background-color: chartreuse;
+    width: 300px;
+    height: 100px;
+    overflow: visible;
+}
+
+/* El auto te optimiza, te pone barras solo dondese necesitan. En este caso en el eje de las Y */
+.contenedor-auto {
+    margin: 100px 0px;
+    background-color: chartreuse;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+
+/* Podemos especificar manualmente cual barra de scroll mostrar */
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    pad: 15px;
+    background-color: rgb(255, 145, 0);
+    width: 300px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

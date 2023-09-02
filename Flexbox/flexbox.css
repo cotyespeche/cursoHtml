@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+    background-color: rgb(228, 235, 42);
+    height: 300px;
+    justify-content:center;
+    /* align-items: strech; */
+}
+
+.contenido1 {
+    background-color: rgb(249, 17, 242);
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid black;
+}
+
+.contenido2 {
+    background-color: rgb(93, 164, 226);
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid black;
+}
+
+.contenido3 {
+    background-color: rgb(13, 238, 190);
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid black;
+}

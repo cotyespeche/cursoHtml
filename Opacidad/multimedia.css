@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal {
+    width: 100vw;
+    opacity: 0.5;
+}
+.imagen-principal:hover {
+    opacity: 1;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: space-between;
+    /* gapp: espacio entre cada imagen */
+    /* wrap: acomoda las imagenes en varias filas  */
+}
+.galeria-imagen {
+    /* width: 150px; */
+    flex:1;
+    min-width: calc(33.33% - 15px); /* (100% / 3) - (2 * gap) para 3 imágenes por fila con 15px de espacio entre ellas */
+    max-width: 100%;
+    margin: 0 5px;
+}
+
+.galeria-imagen:hover {
+    opacity: 0.3;
+    cursor:pointer;
+}

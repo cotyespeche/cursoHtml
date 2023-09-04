@@ -1,0 +1,30 @@
+.contenedor {
+    padding: 15px;
+    /* margin: 15px; */
+    background-color: blueviolet;
+}
+.frase::before{
+    content: '<<';
+}
+.frase::after{
+    content: '>>';
+}
+
+.cualquiera {
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(35, 124, 159);
+    /* gap: 20px; */
+}
+.cualquiera::first-letter {
+    font-size: xx-large;
+}
+.cualquiera::first-line {
+    color: aliceblue;
+}
+.listas ul li::marker{
+    color: coral;
+}
+.listas ol li::marker{
+    color: deeppink;
+}

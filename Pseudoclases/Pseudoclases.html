@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Pseudo-Clases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+        .hover:hover {
+            background-color: rgb(247, 0, 255);
+        }
+        .listado {
+            padding: 15px;
+            background-color: brown;
+        }
+        .listado p:first-child{
+            color: aliceblue;
+        }
+        a:link { /*enlaces no visitados todavia*/
+            color: blueviolet;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color: rgb(5, 85, 60);
+        }
+        a:active {
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+<p>
+    La extensión de los párrafos varía en relación con el tipo de texto que se escribe y con el soporte del texto. Por ejemplo, si el texto se imprime en papel, se recomienda que haya entre tres y ocho párrafos por página.
+</p>
+</div>
+<div class="listado">
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p>
+    <p>Parrafo 3</p>
+</div>
+<div class="enlaces">
+    <a href="https://www.google.com" target="_blank">Enlace a google</a>
+    <a href="https://www.marca.com" target="_blank">Enlace a marca</a>
+    <!-- El target _blank hace que se abra en otra pestaña el enlace.  -->
+
+</div>
+</body>
+</html>
+<!-- https://www.w3schools.com/css/css_pseudo_classes.asp -->

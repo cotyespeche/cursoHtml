@@ -22,6 +22,9 @@
 .cualquiera::first-line {
     color: aliceblue;
 }
+.listas {
+    background-color:rgb(242, 81, 210) ;
+}
 .listas ul li::marker{
     color: coral;
 }

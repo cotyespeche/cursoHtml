@@ -1,0 +1,21 @@
+.escenario {
+    border: 1px solid ;
+    padding: 10px;
+}
+
+.escenario-1 {
+    font-size: 32px ;
+}
+.escenario-2 {
+    font-size: 16px ;
+}
+.em{
+    font-size: 2em;
+}
+.rem {
+    font-size: 2rem;
+}
+
+/* el em ---> hace referencia,en este caso por ejemplo al tamaño de la letra en relacion al padre en donde esta contenido
+el rem -----> hace referencia a la raiz, no del  contenedor (esta es mas responsive)
+ambas se usan para responsive 

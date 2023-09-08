@@ -1,0 +1,58 @@
+h1 {
+    color: brown;
+    font-size: 4rem;
+}
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media all and (max-width: 576px){
+    asi se ponia antes, ya no es necesario. Poniendo como esta abajo hace referencia a que afecta a todo , al print , screen y speach */
+@media (min-width: 576px){
+
+    h1 {
+        color: blue
+    }
+}
+/* Diseño movile first ---> prioriza diseño movil */
+/* @media (max-width: 995px){
+    h1 {
+        color:green;
+    }
+} */
+@media (min-width: 995px){
+    h1 {
+        color:green;
+    }
+}
+
+
+/* el min-height es para la altura, en este caso si la altura es mayor a 300 se vuelve de este color. Aunque no se suele utilizar mucho  */
+/* @media (min-height:300px) {
+    p {
+        color: blueviolet;
+    }
+} */
+
+
+/* orientacion:landscape (para telefonos en horizontal) cuando la altura menos que la anchura, es decir que esta en horizontal */
+@media (orientation: landscape) {
+    p {
+        color: rgb(243, 9, 208);
+    }
+}
+
+/* con el and se tienen que cumplir las dos condiciones */
+/* @media (orientation: landscape) and (min-height:400px) {
+    p {
+        color: rgb(243, 9, 208);
+    }
+} */
+
+/* Con la coma, sin el and se cambia cuando se cumple cualquiera de las condiciones */
+@media (min-height:400px), (min-width:1000px) {
+    h1 {
+        color: rgb(211, 226, 43);
+    }
+}

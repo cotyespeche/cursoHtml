@@ -1,0 +1,17 @@
+/*peusoclase para definir variables reutilizables en css */
+:root { 
+    --color-principal:rgb(255, 0, 200);
+    --ancho-principal:350px
+}
+
+.titulo {
+    color: var(--color-principal);
+}
+.footer {
+    color: var(--color-principal)
+}
+.contenedor {
+    background-color: rgb(217, 215, 144);
+    padding: 0.5rem;
+    width: var(--ancho-principal);
+}
